@@ -85,14 +85,57 @@ body {
 }
 
 .city {
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 1.15rem;
+  font-size: 1.15rem;
   color: cornflowerblue;
   text-align: center;   
   font-family: "Times New Roman";
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   margin: auto auto 0 auto;
 } 
+
+.box-1 {
+
+  background-image: url("images/sky.jpg");
+  background-size: cover;
+  text-shadow: 5px 5px 10px black, 0 0 blue, 0 0 10px darkblue;
+  letter-spacing: 10px;
+  font-size: 1rem;
+  color: #fff;
+  outline: solid silver;
+
+}
+
+.pic {
+  margin: 10px 0;
+  border-radius: 7rem;
+  outline-color: skyblue;
+  box-shadow: 9px 7px 9px rgba(108, 122, 137, 0.8);
+  width: 165px;
+  height: 100px;
+}
+
+.description-LA {
+  
+ 
+  text-align: justify;
+}
+
+.description-Link {
+  
+  text-align: justify;
+  
+  
+
+}
+
+.description-NY {
+ 
+  text-align: justify;
+  
+
+  
+}
 
 
 
