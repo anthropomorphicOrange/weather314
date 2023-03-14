@@ -44,60 +44,6 @@ body {
 }
 
 
-
-@media (min-width: 423px)  {
-  .intermediate {
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 100px 80px 300px 80px 100px;
-  }
-
-  .intermediate .box-1 {
-    grid-column: 1 / 13;
-    background-image: url("images/sky.jpg");
-    background-size: cover;
-    text-shadow: 5px 5px 10px black, 0 0 blue, 0 0 10px darkblue;
-    letter-spacing: 10px;
-    font-size: 1.7rem;
-    color: #fff;
-    outline: solid silver;
-  }
-
-  .intermediate .box-2 {
-    grid-column: 1 / 13;
-  }
-
-  .intermediate .box-3 {
-    grid-column: 1 / 13;
-    color: black;
-    text-align: left;
-    line-height: 1.7;
-    height: 700px;
-  }
-
-  .intermediate .box-4 {
-    grid-column: 1 / 7;
-  }
-
-  .intermediate .box-5 {
-    grid-column: 7 / 13;
-  }
-
-  .intermediate .box-6 {
-    grid-column: 1 / 13;
-  }
-
-  .pic {
-    margin: 10px 0;
-    border-radius: 7rem;
-    outline-color: skyblue;
-    box-shadow: 9px 7px 9px rgba(108, 122, 137, 0.8);
-    width: 256px;
-    height: 154px;
-  }
-}
-
-
-
 @media (min-width: 1057px)  {
   .intermediate {
     grid-template-columns: repeat(12, 1fr);
