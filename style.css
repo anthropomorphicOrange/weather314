@@ -168,7 +168,7 @@ body {
     letter-spacing: 10px;
     font-size: 1.7rem;
     color: #fff;
-    outline: solid silver;
+    outline: 5px solid beige;
   }
 
   .intermediate .box-2 {
